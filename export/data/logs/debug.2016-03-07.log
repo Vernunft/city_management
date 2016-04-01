@@ -1,0 +1,8 @@
+18:45:05.872 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ooo Using Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3229928e]]]
+18:45:05.878 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ==>  Preparing: select * from table_staff where id=? 
+18:45:05.903 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ==> Parameters: 1(Long)
+18:45:05.934 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - <==      Total: 1
+19:29:58.935 [main] DEBUG c.e.f.t.c.d.ITestDao.getCitizenByTel - ooo Using Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@68f5a753]]]
+19:29:58.941 [main] DEBUG c.e.f.t.c.d.ITestDao.getCitizenByTel - ==>  Preparing: select * from table_citizen where telephone_number=? 
+19:29:58.961 [main] DEBUG c.e.f.t.c.d.ITestDao.getCitizenByTel - ==> Parameters: 13306934249(String)
+19:29:59.018 [main] DEBUG c.e.f.t.c.d.ITestDao.getCitizenByTel - <==      Total: 1

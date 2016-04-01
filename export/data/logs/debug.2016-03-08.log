@@ -1,0 +1,12 @@
+21:28:26.378 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IStaffDao
+21:28:26.441 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ISceneSituationDao
+21:28:26.450 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IManyTable
+21:28:26.465 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IlazyLoadingTable
+21:28:26.477 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IDepartmentDao
+21:28:26.493 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ICitizenDao
+21:28:26.502 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IBulletinDao
+21:28:27.615 [main] DEBUG c.e.f.t.c.c.AuditorController - debug
+21:28:28.406 [main] DEBUG c.e.f.t.c.d.I.getTroubleById - ooo Using Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@5df2c254]]]
+21:28:28.410 [main] DEBUG c.e.f.t.c.d.I.getTroubleById - ==>  Preparing: select * from table_trouble where id=? and flag =1 
+21:28:28.439 [main] DEBUG c.e.f.t.c.d.I.getTroubleById - ==> Parameters: 6(Long)
+21:28:28.472 [main] DEBUG c.e.f.t.c.d.I.getTroubleById - <==      Total: 1

@@ -1,0 +1,21 @@
+13:36:08.934 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IStaffDao
+13:36:08.952 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ISceneSituationDao
+13:36:08.959 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IManyTable
+13:36:08.970 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IlazyLoadingTable
+13:36:08.976 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IDepartmentDao
+13:36:08.987 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ICitizenDao
+13:36:08.996 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IBulletinDao
+13:36:09.713 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>getObject:-411205987:-552835561:cn.edu.fjnu.towide.city_management.dao.IStaffDao.getStaffById:0:2147483647:select * from table_staff where id=? :1=null
+13:36:10.142 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ooo Using Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2c8965ed]]]
+13:36:10.144 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ==>  Preparing: select * from table_staff where id=? 
+13:36:10.164 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - ==> Parameters: 1(Long)
+13:36:10.190 [main] DEBUG c.e.f.t.c.dao.IStaffDao.getStaffById - <==      Total: 1
+13:36:10.192 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>putObject:-411205987:-552835561:cn.edu.fjnu.towide.city_management.dao.IStaffDao.getStaffById:0:2147483647:select * from table_staff where id=? :1=[Staff [id=1, departmentId=1, password=123, name=玉玉, telephoneNumber=133435676, salt=null, email=00000000000000000000000, role=1, flag=1]]
+17:54:43.702 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IStaffDao
+17:54:43.710 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ISceneSituationDao
+17:54:43.716 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IManyTable
+17:54:43.729 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IlazyLoadingTable
+17:54:43.734 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IDepartmentDao
+17:54:43.742 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.ICitizenDao
+17:54:43.749 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>MybatisRedisCache:id=cn.edu.fjnu.towide.city_management.dao.IBulletinDao
+17:54:44.408 [main] DEBUG c.e.f.t.c.redis.MybatisRedisCache - >>>>>>>>>>>>>>>>>>>>>>>>getObject:-411205987:-552835561:cn.edu.fjnu.towide.city_management.dao.IStaffDao.getStaffById:0:2147483647:select * from table_staff where id=? :1=[Staff [id=1, departmentId=1, password=123, name=玉玉, telephoneNumber=133435676, salt=null, email=00000000000000000000000, role=1, flag=1]]
